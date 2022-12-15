@@ -22,7 +22,7 @@ function Header() {
                             <NavLink className="nav-link" to="/contacto">Contacto</NavLink >
                         </li>
                         <li class="nav-item">
-                            <NavLink className="nav-link" to="/todo">Todo</NavLink >
+                            <NavLink className="nav-link" to="/todolist">Todo</NavLink >
                         </li>
                         <li class="nav-item">
                             <NavLink className="nav-link" to="/calendario">Calendario</NavLink >
