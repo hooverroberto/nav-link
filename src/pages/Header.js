@@ -13,13 +13,13 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link active" aria-current="page" to="/">Inicio</NavLink >
+                            <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink >
                         </li>
                         <li class="nav-item">
-                            <NavLink className="nav-link" to="/acerca">Acerca</NavLink >
+                            <NavLink className="nav-link" to="/notas">Notas</NavLink >
                         </li>
                         <li class="nav-item">
-                            <NavLink className="nav-link" to="/contacto">Contacto</NavLink >
+                            <NavLink className="nav-link" to="/calculadora">Calculadora</NavLink >
                         </li>
                         <li class="nav-item">
                             <NavLink className="nav-link" to="/todolist">Todo</NavLink >

@@ -1,12 +1,12 @@
 import React, {useEffect} from 'react'
 
-const Alertas = ({type, msg, removeAlert, list}) => {
+const Alertas = ({type, msg, removeAlert, lista}) => {
  useEffect(() =>{
     const timeout = setTimeout(() => {
         removeAlert();
-    }, 3000);
+    },3000);
     return () => clearTimeout(timeout);
- }, [removeAlert]);
+ }, [lista]);
 
  return <p className={`alert alert-${type}`}>{msg}</p>
 }

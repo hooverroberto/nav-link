@@ -4,10 +4,10 @@ import { Routes, Route} from 'react-router-dom';
 
 import Header from './pages/Header'
 import Inicio from './pages/Inicio';
-import Acerca from './pages/Acerca';
-import Contacto from './pages/Contacto'
+import Notas from './components/notas/Notas';
 import TodoList from './components/todo/TodoList';
 import Calendario from './components/calendar/Calendario';
+import Calculadora from './components/calculadora/Calculadora';
 
 function App() {
 
@@ -16,8 +16,8 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Inicio />} />
-        <Route path='/acerca' element={<Acerca />} />
-        <Route path='/contacto' element={<Contacto />} />
+        <Route path='/notas' element={<Notas />} />
+        <Route path='/calculadora' element={<Calculadora />} />
         <Route path='/todolist' element={<TodoList />} />
         <Route path='/calendario' element={<Calendario/>} />
       </Routes>
