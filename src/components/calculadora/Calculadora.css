@@ -11,7 +11,16 @@ input{
 
 .boton{
     width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px 5px;
+    color: white;
     background-color: rgb(128, 128, 128);
+}
+
+.boton:hover,
+.clear:hover{
+    background-color: coral;
 }
 
 
@@ -27,6 +36,7 @@ input{
 
 .clear{
     width: 100%;
+    border: none;
 }
 
 @media screen and (max-width: 575px) {
@@ -73,3 +83,5 @@ input{
        
     }
   }
+
+  /* Minuto 4:33:54 */
