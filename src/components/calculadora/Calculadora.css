@@ -1,0 +1,75 @@
+input{
+    background-color: rgb(209, 230, 168);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.body-cal{
+    background-color: rgb(77, 77, 77);
+}
+
+.boton{
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+}
+
+
+.boton-op{
+    width: 100%;
+    background-color: rgb(101, 200, 207);
+}
+
+.boton-igual{
+    width: 100%;
+    background-color: rgb(232, 93, 95);
+}
+
+.clear{
+    width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    .input{
+        display: flex;
+        width: 90%;        
+    }
+
+    .body-cal{
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(77, 77, 77);
+    }
+
+    .row{
+        width: 95%;       
+        display: flex;
+    }
+
+    .col-sm-3{
+        display: flex;
+        width: 25%;
+    }
+
+    .boton{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(128, 128, 128);
+    }
+    .boton-op{
+        display: flex;
+        justify-content: center;
+        width: 100%;       
+    }
+    .boton-igual{       
+        display:flex;
+        justify-content: center;
+        width: 100%;
+       
+    }
+  }
